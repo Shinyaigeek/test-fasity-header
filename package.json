@@ -1,0 +1,23 @@
+{
+  "name": "test-fasity-header",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shinyaigeek/test-fasity-header.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shinyaigeek/test-fasity-header/issues"
+  },
+  "homepage": "https://github.com/Shinyaigeek/test-fasity-header#readme",
+  "dependencies": {
+    "fastify": "^3.14.0"
+  }
+}
