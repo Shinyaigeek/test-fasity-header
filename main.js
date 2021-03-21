@@ -21,9 +21,9 @@ app.get("/stream_prefix", (req, res) => {
     highWaterMark: 1024,
   });
 
-  res.raw.write("prefix ");
-
   res.header("Content-Type", "text/html; charset=utf-8");
+
+  res.raw.write("prefix ");
 
   res.send(stream);
 });
